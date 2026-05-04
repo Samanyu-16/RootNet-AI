@@ -1,0 +1,10 @@
+Flow,Predicted_Label,Actual_Label,Correct,Severity_Score,Top_Feature_1,Top_Feature_1_Value,Top_Feature_1_SHAP,Top_Feature_1_Dir,Top_Feature_2,Top_Feature_2_Value,Top_Feature_2_SHAP,Top_Feature_2_Dir,Top_Feature_3,Top_Feature_3_Value,Top_Feature_3_SHAP,Top_Feature_3_Dir
+1,BENIGN,BENIGN,True,86,Fwd Packet Length Max,46.0,4.3748,↑ High,Fwd IAT Max,3315620.0,0.8801,↓ Low,Fwd Packet Length Mean,27.0,0.6361,↑ High
+2,BENIGN,BENIGN,True,85,Fwd Packet Length Max,45.0,3.0359,↑ High,Init_Win_bytes_forward,-1.0,2.5747,↑ High,Fwd Packet Length Mean,45.0,0.7817,↑ High
+3,BENIGN,BENIGN,True,84,Fwd Packet Length Max,597.0,4.7135,↑ High,Fwd IAT Total,20900000.0,2.1545,↑ High,Avg Bwd Segment Size,1662.814,0.6369,↓ Low
+4,DDoS,DDoS,True,79,act_data_pkt_fwd,6.0,2.5559,↑ High,Avg Bwd Segment Size,2901.75,2.5343,↑ High,Fwd IAT Max,74400000.0,2.1434,↑ High
+5,DDoS,DDoS,True,79,act_data_pkt_fwd,6.0,2.5566,↑ High,Avg Bwd Segment Size,2900.25,2.5343,↑ High,Fwd IAT Max,93900000.0,2.1434,↑ High
+6,DDoS,DDoS,True,90,Avg Bwd Segment Size,1933.5,3.8132,↑ High,act_data_pkt_fwd,2.0,2.5511,↑ High,Fwd Packet Length Max,20.0,1.2424,↑ High
+7,PortScan,PortScan,True,81,Total Length of Fwd Packets,2.0,2.7112,↑ High,Average Packet Size,5.0,2.1355,↑ High,Packet Length Mean,3.3333,1.8972,↑ High
+8,PortScan,PortScan,True,83,Total Length of Fwd Packets,2.0,2.7524,↑ High,Average Packet Size,5.0,2.0013,↑ High,Packet Length Mean,3.3333,1.7329,↑ High
+9,PortScan,PortScan,True,80,Packet Length Mean,2.0,2.6015,↑ High,Total Length of Fwd Packets,0.0,2.0866,↑ High,Flow Packets/s,47619.0476,1.5585,↑ High
