@@ -465,11 +465,11 @@ This makes the system useful not only for attack detection, but also for **inter
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Team Members
 
-**Samanyu Manohar**
-Srushti Sunil
-R Anaghskanda Bharadwaj
+- **Samanyu Manohar**
+- **Srushti Sunil R**
+- **Anaghskanda Bharadwaj**
 
 Computer Science & Engineering  
 RV Institute of Technology and Management
